@@ -44,7 +44,10 @@
 </form>
 </body>
 </html>
-The redirected file after clicking submit button
+
+
+The redirected file after clicking submit button 
+this file should be saved with "secondwebpage.html" because we have added this file in the above program.
 <html>
 <title>My webpage</title>
 <body><font size="5" color="green"> 
