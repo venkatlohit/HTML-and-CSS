@@ -1,0 +1,53 @@
+<html>
+<head> 
+<title>My webpage</title> 
+</head> 
+<body bgcolor="black" text="white"> 
+<h1>Internship Application Form</h1> 
+<form><fieldset border="5"> 
+<legend>Enter your details</legend>
+<p>Enter Your Name:</p> 
+<input type="text" name="Name"> 
+<p>Enter Your Email:</p> 
+<input type="email" name="Email"> 
+<p>Enter Your Password:</p> 
+<input type="password" name="Password"> 
+<p>Enter Your Age:</p> 
+<input type="number" name="Age"> 
+<p>Enter Your Contact Number:</p> 
+<input type="number" name="number"> 
+<p>Gender:</p> 
+<input type="radio" name="gender" value="male"/>Male<br> 
+<input type="radio" name="gender" value="female"/>Female<br> 
+<p>About Yourself</p> 
+<textarea rows="2" cols="20" name="description"> 
+</textarea> 
+<p>Which Programming Languages you want to learn in this intenship?</p> 
+<input type="checkbox" name="C" value="on" >C<br> 
+<input type="checkbox" name="C++" value="on" >C++<br> 
+<input type="checkbox" name="Java" value="on" >Java<br> 
+<input type="checkbox" name="Python" value="on" >Python<br>
+<input type="checkbox" name="Javascript" value="on">Javascript<br> 
+<p>How many months you want to participate in our internship program?</p> 
+<select name="dropdown"> 
+<option value="3 Months">3 Months</option> 
+<option value-"6 Months">6 Months</option> 
+<option value="6 Months">9 Months</option> 
+<option value="1 Year">1 Year</option> 
+</select> 
+<p>Upload Your Resume</p> 
+<input type="file" name="fileupload" accept-""document"> 
+<p></p> 
+<a href="secondwebpage.html">
+<input type="button" name="submt" value="submit"></a>
+</fieldset>
+</form>
+</body>
+</html>
+The redirected file after clicking submit button
+<html>
+<title>My webpage</title>
+<body><font size="5" color="green"> 
+<center><h1>You have submitted your Application successfully. </h1></center>
+ </font></body>
+</html>
